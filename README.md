@@ -28,8 +28,27 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`checkmee add [FILE]`](#checkmee-add-file)
 * [`checkmee hello [FILE]`](#checkmee-hello-file)
 * [`checkmee help [COMMAND]`](#checkmee-help-command)
+* [`checkmee list [FILE]`](#checkmee-list-file)
+* [`checkmee remove [FILE]`](#checkmee-remove-file)
+
+## `checkmee add [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ checkmee add [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/add.ts](https://github.com/shkhaider2015/checkmee/blob/v0.0.0/src/commands/add.ts)_
 
 ## `checkmee hello [FILE]`
 
@@ -67,4 +86,36 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.3/src/commands/help.ts)_
+
+## `checkmee list [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ checkmee list [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/list.ts](https://github.com/shkhaider2015/checkmee/blob/v0.0.0/src/commands/list.ts)_
+
+## `checkmee remove [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ checkmee remove [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/remove.ts](https://github.com/shkhaider2015/checkmee/blob/v0.0.0/src/commands/remove.ts)_
 <!-- commandsstop -->
